@@ -1,6 +1,7 @@
+IndexServlet.class
+User.class
 UserDB.class
 UserCheck.class
+ImageServlet$Imagination.class
 HelloServlet.class
-IndexServlet.class
 ImageServlet.class
-User.class

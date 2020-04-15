@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="394c3a84-b34f-4054-bd8b-e3bddabcb168" name="Default Changelist" comment="" />
+    <list default="true" id="394c3a84-b34f-4054-bd8b-e3bddabcb168" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Images/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Servlet-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-1.0-SNAPSHOT.war" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -37,6 +45,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YIs61SKi8lIzePTAajMq8ZUajE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -178,6 +187,9 @@
       <workItem from="1586269858693" duration="218000" />
       <workItem from="1586270258867" duration="124000" />
       <workItem from="1586270406685" duration="1200000" />
+      <workItem from="1586304439365" duration="779000" />
+      <workItem from="1586899540245" duration="98000" />
+      <workItem from="1586936369762" duration="481000" />
     </task>
     <servers />
   </component>
@@ -209,26 +221,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="832" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582806021038" />
+    <state x="406" y="11" key="CommitChangelistDialog2" timestamp="1586936937193">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="406" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586936937193" />
     <state x="243" y="149" key="FileChooserDialogImpl" timestamp="1585082846333">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="243" y="149" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585082846333" />
-    <state width="723" height="206" key="GridCell.Tab.0.bottom" timestamp="1586272151672">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1586936791596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586272151672" />
-    <state width="723" height="206" key="GridCell.Tab.0.center" timestamp="1586272151672">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586936791596" />
+    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1586936791596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586272151672" />
-    <state width="723" height="206" key="GridCell.Tab.0.left" timestamp="1586272151672">
+    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586936791596" />
+    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1586936791596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586272151672" />
-    <state width="723" height="206" key="GridCell.Tab.0.right" timestamp="1586272151672">
+    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586936791596" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1586936791596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586272151672" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586936791596" />
     <state width="587" height="213" key="GridCell.Tab.1.bottom" timestamp="1585123120834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -293,6 +309,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="427" y="44" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1582702909299" />
+    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586936861555">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586936861555" />
     <state x="310" y="-14" width="1035" height="578" maximized="true" key="dock-window-1" timestamp="1583247204857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
