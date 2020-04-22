@@ -4,7 +4,7 @@ import javax.servlet.http.*;
 import java.io.*;
 import java.util.ArrayList;
 
-@WebServlet("/")
+@WebServlet("/IndexServlet")
 public class IndexServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
@@ -18,18 +18,18 @@ public class IndexServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String login = req.getParameter("login");
         String password = req.getParameter("password");
-        if (login != "" && password != "" && login != null && password != null) {
-            ArrayList<User> users = UserDB.select();
-            if (UserCheck.isUserCorrect(users, login, password)) {
-                HttpSession session = req.getSession();
+        RequestDispatcher dispatcher = null;
+        HttpSession session = null;
+        ArrayList<User> users = UserDB.select();
+        if (login != "" && password != "" && login != null && password != null && (UserCheck.isUserCorrect(users, login, password))) {
+                session = req.getSession(true);
                 session.setAttribute("login", login);
                 resp.addCookie(new Cookie("password", password));
-                req.getRequestDispatcher("/hello.jsp").forward(req, resp);
-            } else {
-                throw new IllegalStateException("Wrong login/password");
-            }
+                dispatcher = req.getRequestDispatcher("/hello.jsp");
         } else {
-            req.getRequestDispatcher("/index.jsp").forward(req, resp);
+            //req.getRequestDispatcher("/index.jsp").forward(req, resp);
+            req.getRequestDispatcher("/error.jsp").forward(req, resp);
         }
+        dispatcher.forward(req, resp);
     }
 }

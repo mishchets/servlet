@@ -7,7 +7,7 @@
     <p>Hello, ${login}</p>
     <p>Password: ${cookie.get("password").value}</p>
     <a href="image">Get image</a>
-    <form action="Hello" method="post">
+    <form action="HelloServlet" method="post">
         <input type="submit" value="Exit">
     </form>
 </body>

@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Authorization</h2>
-    <form action="Authorization" method="post">
+    <form action="IndexServlet" method="post">
         <label>Login</label>
         <input name="login"><br>
         <label>Password</label>
