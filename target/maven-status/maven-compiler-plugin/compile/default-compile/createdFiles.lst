@@ -1,8 +1,10 @@
+DocumentDB.class
 IndexServlet.class
 User.class
 UserDB.class
 SessionListener.class
 UserCheck.class
+FileServlet.class
 ImageServlet$Imagination.class
 HelloServlet.class
 ImageServlet.class
