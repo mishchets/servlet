@@ -6,15 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="394c3a84-b34f-4054-bd8b-e3bddabcb168" name="Default Changelist" comment="+ FileServlet">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="394c3a84-b34f-4054-bd8b-e3bddabcb168" name="Default Changelist" comment="+ FileServlet (doc/docx + txt)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DocumentDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DocumentDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Servlet-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Servlet-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +168,8 @@
       <workItem from="1587541427335" duration="2796000" />
       <workItem from="1588008642573" duration="4427000" />
       <workItem from="1588145737885" duration="2867000" />
-      <workItem from="1589959645349" duration="163000" />
+      <workItem from="1589959645349" duration="391000" />
+      <workItem from="1589960738147" duration="905000" />
     </task>
     <task id="LOCAL-00001" summary="+ ImageServlet">
       <created>1586937017453</created>
@@ -204,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588083979507</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="+ FileServlet (doc/docx + txt)">
+      <created>1589959885042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589959885046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +216,8 @@
     <MESSAGE value="+ ImageServlet" />
     <MESSAGE value="+ SessionListener" />
     <MESSAGE value="+ FileServlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ FileServlet" />
+    <MESSAGE value="+ FileServlet (doc/docx + txt)" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ FileServlet (doc/docx + txt)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="73" key="#Project_Structure" timestamp="1582797740793">
@@ -241,10 +244,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="832" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1588145877368" />
-    <state x="406" y="11" key="CommitChangelistDialog2" timestamp="1588083976661">
+    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1589961643339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="406" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588083976661" />
+    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589961643339" />
     <state x="243" y="149" key="FileChooserDialogImpl" timestamp="1585082846333">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -317,10 +320,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588145708686" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1588083993468">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1589959889022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588083993468" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589959889022" />
     <state x="498" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582797037675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -333,10 +336,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="427" y="44" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1582702909299" />
-    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586937182934">
+    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589959821936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586937182934" />
+    <state x="580" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1589959821936" />
     <state x="310" y="-14" width="1035" height="578" maximized="true" key="dock-window-1" timestamp="1583247204857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

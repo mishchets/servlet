@@ -36,10 +36,12 @@ public class DocumentDB {
     }
 
     public static void saveDocument(StringBuilder data, String filename, String path) {
+        Connection conn = null;
         try {
             String str = "";
             Class.forName("org.postgresql.Driver").getDeclaredConstructor().newInstance();
-            try (Connection conn = DriverManager.getConnection(url, username, password)) {
+            conn = getConnection();
+            try {
                 String n = filename.replaceAll("\\.", "|");
                 if (n.split("\\|")[1].equals("doc")){
                     FileInputStream fis = new FileInputStream(path+ "\\" +filename);
@@ -66,9 +68,13 @@ public class DocumentDB {
                 statement.executeUpdate();
 
                 statement.close();
+            } catch (Exception ex) {
+                System.out.println(ex);
             }
         } catch (Exception ex) {
             System.out.println(ex);
+        } finally {
+            closeConnection(conn);
         }
     }
 }
